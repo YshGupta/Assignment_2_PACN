@@ -54,3 +54,6 @@ if __name__ == '__main__':
     data = {'Names': Names, 'Servers': servers, 'Times': list(Times), 'Delays': list(Delays), 'Throughputs': list(Throughputs)}
     with open('ping_data_new.pkl', 'wb') as file:
         pickle.dump(data, file)
+
+
+# open this 
